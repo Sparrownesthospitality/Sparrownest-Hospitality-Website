@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #4A5568;
+    --secondary: #718096;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Add scroll padding to account for fixed navbar */
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-100 dark:hover:bg-gray-800;
+  }
+
+  .nav-link.active {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white rounded-lg shadow-lg hover:bg-opacity-90 transition-all duration-300;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-center mb-12;
+  }
+}
+
+/* Carousel Styles */
+.slick-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-dots {
+  @apply bottom-5 z-10;
+}
+
+.slick-dots li button:before {
+  @apply text-white opacity-50;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-white opacity-100;
+}
+
+/* Room Slider */
+.room-slider .slick-slide {
+  @apply px-2;
+}
+
+.room-slider .slick-list {
+  @apply mx-[-8px];
+}
+
+/* Team Card Styles */
+.team-card {
+  @apply relative w-full h-[400px] cursor-pointer;
+  perspective: 1000px;
+}
+
+.team-card-inner {
+  @apply relative w-full h-full transition-transform duration-500;
+  transform-style: preserve-3d;
+}
+
+.team-card.flipped .team-card-inner {
+  transform: rotateY(180deg);
+}
+
+.team-card-front,
+.team-card-back {
+  @apply absolute w-full h-full;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.team-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Animation Classes */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Aspect Ratio for Map */
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.aspect-w-16 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
