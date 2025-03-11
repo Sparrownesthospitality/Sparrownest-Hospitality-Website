@@ -334,14 +334,14 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold mb-6">Contact Details</h3>
               <div className="space-y-6">
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+91 7022638065" 
                   className="flex items-center gap-4 text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300"
                 >
                   <Phone className="w-6 h-6" />
-                  <span>+1 (234) 567-890</span>
+                  <span>+91 7022638065</span>
                 </a>
                 <a 
-                  href="mailto:info@sparrownest.com"
+                  href="mailto:contact@sparrownest.in"
                   className="flex items-center gap-4 text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300"
                 >
                   <Mail className="w-6 h-6" />

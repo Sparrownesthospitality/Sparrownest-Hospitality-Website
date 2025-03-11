@@ -13,68 +13,68 @@ const RoomsAndSuites = () => {
 
   const rooms = [
     {
-      name: 'Deluxe Suite',
+      name: 'Deluxe Suite Abhyuday Nilaya 101',
       images: [
-        'https://images.unsplash.com/photo-1578683010236-d716f9a3f461',
-        'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b',
-        'https://images.unsplash.com/photo-1584132967334-10e028bd69f7',
-        'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf',
+        'https://ucarecdn.com/aef755b0-6d44-478a-9e52-67082b2b2e01/101livingroom.jpg',
+        'https://ucarecdn.com/7cae24f5-a693-44f3-942b-59b5f4bd709c/101livingroom2.jpg',
+        'https://ucarecdn.com/64f63e0c-1f94-4758-b92e-5ec144e10171/1012ndbedroom.jpg',
+        'https://ucarecdn.com/522e55ed-ecde-42ae-a416-580348072240/1011stbedroom.jpg',
       ],
       description: 'Spacious suite with modern amenities and city views',
       size: '400 sq ft',
-      bed: 'King Size',
+      bed: 'Queen Size',
       view: 'City View',
-      amenities: ['AC', 'Wi-Fi', 'Mini Bar', 'Smart TV'],
-      price: '$150/night',
-      location: 'East Wing, 3rd Floor',
+      amenities: ['AC', 'Wi-Fi', 'Dedicated Workspace', '4K Smart TV'],
+      price: 'INR 2500/night',
+      location: 'Abhyuday Nilaya, 1st Floor',
     },
     {
-      name: 'Family Suite',
+      name: 'Deluxe Suite Abhyuday Nilaya 201',
       images: [
-        'https://images.unsplash.com/photo-1566665797739-1674de7a421a',
-        'https://images.unsplash.com/photo-1582719508461-905c673771fd',
-        'https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f',
-        'https://images.unsplash.com/photo-1595526115607-fa1288c87173',
+        'https://ucarecdn.com/70e2666b-108d-413b-9c48-a1a514ac35df/201livingroom.jpg',
+        'https://ucarecdn.com/c3b95f4d-7c7c-4229-8c93-bdcff7b50572/201livingroom1.jpg',
+        'https://ucarecdn.com/107f9827-4eb0-464e-8975-7be8a06d8b17/2012ndbedroom.jpg',
+        'https://ucarecdn.com/1ce4d260-071c-4bbc-bf35-137d7b1fcc00/2011stbedroom.jpg',
       ],
       description: 'Perfect for families, featuring two bedrooms and a living area',
       size: '600 sq ft',
-      bed: '1 King + 2 Twin',
+      bed: 'Queen',
       view: 'Garden View',
       amenities: ['AC', 'Wi-Fi', 'Kitchen', 'Balcony'],
-      price: '$200/night',
-      location: 'West Wing, 2nd Floor',
+      price: 'INR 2500/night',
+      location: 'Abhyuday Nilaya, 2nd Floor',
     },
     {
-      name: 'Garden Room',
+      name: 'Deluxe Suite Abhyuday Nilaya 301',
       images: [
-        'https://images.unsplash.com/photo-1566665797739-1674de7a421a',
-        'https://images.unsplash.com/photo-1582719508461-905c673771fd',
-        'https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f',
-        'https://images.unsplash.com/photo-1595526115607-fa1288c87173',
+        'https://ucarecdn.com/8775a932-3259-474a-a501-f2859b409a65/301livingroom2.jpg',
+        'https://ucarecdn.com/483cd0f6-ba0d-43f3-87f3-6d6ffb075eaf/301livingroom4.jpg',
+        'https://ucarecdn.com/82ea5d25-b74c-4abd-a6d3-35e4cfecb054/301bedroom2.jpg',
+        'https://ucarecdn.com/ea1e18e5-9588-43ea-9a8a-5644add2c5f3/301bedroom.jpg',
       ],
       description: 'Cozy room with direct access to our beautiful garden',
       size: '300 sq ft',
       bed: 'Queen Size',
       view: 'Garden View',
       amenities: ['AC', 'Wi-Fi', 'Garden Access', 'Workspace'],
-      price: '$120/night',
-      location: 'Ground Floor',
+      price: 'INR 1900/night',
+      location: 'Abhyuday Nilaya, 3nd Floor',
     },
     {
-      name: 'Executive Suite',
+      name: 'Deluxe Suite Abhyuday Nilaya G1',
       images: [
-        'https://images.unsplash.com/photo-1566665797739-1674de7a421a',
-        'https://images.unsplash.com/photo-1582719508461-905c673771fd',
-        'https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f',
-        'https://images.unsplash.com/photo-1595526115607-fa1288c87173',
+        'https://ucarecdn.com/ea7dc1ed-f824-4d5b-8486-03f49e05db41/G1livingroom3.jpg',
+        'https://ucarecdn.com/31a834b6-0913-4230-8a3a-6ddfd4501ac6/G1livingroom.jpg',
+        'https://ucarecdn.com/d7fbff9e-682d-4bf8-85df-de18f93946c3/G11stbedroom.jpg',
+        'https://ucarecdn.com/084652b5-3813-4a31-9be6-6e80606948be/G12ndbedroom.jpg',
       ],
       description: 'Luxury suite with premium amenities and workspace',
       size: '500 sq ft',
-      bed: 'King Size',
+      bed: 'Queen Size',
       view: 'City View',
-      amenities: ['AC', 'Wi-Fi', 'Mini Bar', 'Office Space'],
-      price: '$180/night',
-      location: 'Top Floor',
+      amenities: ['AC', 'Wi-Fi', 'Private Workspace', 'Kitchen'],
+      price: 'INR 2300/night',
+      location: 'Ground Floor',
     },
   ];
 
@@ -186,7 +186,7 @@ const RoomsAndSuites = () => {
                       
                       <div className="flex gap-4 mt-6">
                         <a 
-                          href="tel:+1234567890"
+                          href="tel:7022638065"
                           className="flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90"
                         >
                           <Phone className="w-5 h-5" />

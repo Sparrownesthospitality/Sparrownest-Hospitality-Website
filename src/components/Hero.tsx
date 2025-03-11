@@ -164,7 +164,7 @@ const Hero = () => {
                     className="flex flex-col sm:flex-row gap-4 justify-center"
                   >
                     <a 
-                      href="https://cleartax.in/save/rent"
+                      href="https://www.airbnb.co.in/users/show/661771849"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-8 py-3 bg-white text-gray-900 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200"
@@ -172,7 +172,7 @@ const Hero = () => {
                       Check Availability
                     </a>
                     <a 
-                      href="https://www.airbnb.co.in/host/homes"
+                      href="https://www.airbnb.co.in/users/show/661771849"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group px-8 py-3 bg-transparent border-2 border-white rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-colors duration-200 flex items-center gap-2"

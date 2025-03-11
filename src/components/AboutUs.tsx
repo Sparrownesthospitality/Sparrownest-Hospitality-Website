@@ -20,9 +20,9 @@ const AboutUs = () => {
         'Business development & partnerships',
         'Team leadership & mentoring'
       ],
-      image: 'https://ucarecdn.com/3c50c536-c4db-487b-b218-4c94913b620b/PXL_20240422_062708912MP.jpg',
-      whatsapp: '+919337738065',
-      email: 'sarah@sparrownest.com'
+      image: 'https://ucarecdn.com/34fce0ed-d6ff-4004-b171-8cbddb4914b9/IMG_20250312_014932.jpg',
+      whatsapp: '+917488454015',
+      email: 'patelavvi1@gmail.com'
     },
     {
       name: 'Ajit Kumar Tiwari',
@@ -34,8 +34,8 @@ const AboutUs = () => {
         'Security management'
       ],
       image: 'https://ucarecdn.com/3ae467f7-6a11-487e-9f19-3e66b37ca53a/PXL_20230916_124344389MP.jpg',
-      whatsapp: '+1234567891',
-      email: 'michael@sparrownest.com'
+      whatsapp: '+917079173040',
+      email: 'tiwaryajj@gmail.com'
     },
     {
       name: 'Udayendu Panigrahi',
@@ -45,8 +45,8 @@ const AboutUs = () => {
         'Customer service excellence'
       ],
       image: 'https://ucarecdn.com/0f413457-23f6-4732-9041-06f8438ea629/Screenshot20250217162729.png',
-      whatsapp: '+1234567892',
-      email: 'emma@sparrownest.com'
+      whatsapp: '+919337738065',
+      email: 'udayendusparrownest@gmail.com'
     }
   ];
 

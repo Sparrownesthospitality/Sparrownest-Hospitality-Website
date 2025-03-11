@@ -97,9 +97,10 @@ const Location = () => {
                 Our Address
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                123 Sparrow Street, Garden District<br />
-                Bangalore, Karnataka 560001<br />
-                India
+              Abhyuday Nilaya, 18th Main Road,<br/> 
+                  Kuvempu Nagar, Stage 2 BTM Layout,<br/>
+                  Bangalore, Karnataka 560076.
+                  India.
               </p>
             </div>
 

@@ -230,13 +230,13 @@ const Footer = () => {
           >
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-4">
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="tel:+91 7022638065" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-300">
                 <Phone className="w-5 h-5" />
-                <span>+1 (234) 567-890</span>
+                <span>+91 7022638065</span>
               </a>
-              <a href="mailto:info@sparrownest.com" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-300">
+              <a href="mailto:contact@sparrownesthospitality.in" className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-300">
                 <Mail className="w-5 h-5" />
-                <span>info@sparrownest.com</span>
+                <span>contact@sparrownesthospitality.in</span>
               </a>
               <div className="flex items-start gap-2 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
