@@ -341,11 +341,11 @@ const Contact = () => {
                   <span>+91 7022638065</span>
                 </a>
                 <a 
-                  href="mailto:contact@sparrownest.in"
+                  href="mailto:contact@sparrownesthospitality.in"
                   className="flex items-center gap-4 text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300"
                 >
                   <Mail className="w-6 h-6" />
-                  <span>info@sparrownest.com</span>
+                  <span>contact@sparrownesthospitality.in</span>
                 </a>
                 <a 
                   href="https://wa.me/1234567890"

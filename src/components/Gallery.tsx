@@ -19,7 +19,7 @@ const Gallery = () => {
     { url: 'https://ucarecdn.com/d7fbff9e-682d-4bf8-85df-de18f93946c3/G11stbedroom.jpg', alt: 'Balcony view' },
     { url: 'https://ucarecdn.com/31a834b6-0913-4230-8a3a-6ddfd4501ac6/G1livingroom.jpg', alt: 'Workspace' },
     { url: 'https://ucarecdn.com/084652b5-3813-4a31-9be6-6e80606948be/G12ndbedroom.jpg', alt: 'Kitchen area' },
-    { url: '', alt: 'a area' },
+    
     // Add more images to reach 30
   ];
 

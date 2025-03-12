@@ -191,8 +191,10 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-            <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
+            {/* <img src="https://ucarecdn.com/85725fea-b12a-4f2a-bd14-dea61c3a06ff/logowithoutbg.png" alt="Sparrow Nest" className="w-[120px] h-[120px]" /> */}
               <Bird className="w-8 h-8 text-primary" />
+            <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
+              
               <span className="text-xl font-bold">Sparrow Nest</span>
             </div>
             <p className="text-gray-400">
@@ -292,7 +294,7 @@ const Footer = () => {
                 href="https://www.chandramohan.site/"
                 className="text-primary hover:text-white transition-colors duration-300"
               >
-                @Chm.
+                @ Chandra Mohan Mahto
               </a>
             </p>
           </div>

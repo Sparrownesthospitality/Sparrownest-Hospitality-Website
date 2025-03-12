@@ -219,7 +219,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <Bird className="w-8 h-8 text-primary" />
+            {/* <Bird className="w-8 h-8 text-primary" /> */}
+            <img src="https://ucarecdn.com/85725fea-b12a-4f2a-bd14-dea61c3a06ff/logowithoutbg.png" alt="Sparrow Nest" className="w-20 h-25" />
             <span className="text-xl font-bold text-gray-900 dark:text-white">Sparrow Nest</span>
           </div>
 

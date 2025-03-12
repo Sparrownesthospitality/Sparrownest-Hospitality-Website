@@ -13,7 +13,7 @@ const AboutUs = () => {
   const teamMembers = [
     {
       name: 'Abhishek Singh',
-      role: 'Founder & Host',
+      role: 'Founder & CEO',
       responsibilities: [
         'Overall business management',
         'Strategic planning and growth',
@@ -38,8 +38,21 @@ const AboutUs = () => {
       email: 'tiwaryajj@gmail.com'
     },
     {
+      name: 'Raj Kishore Panda',
+      role: 'Relationship Manager',
+      responsibilities: [
+        'Property maintenance oversight',
+        'Guest comfort management',
+        'Housekeeping supervision',
+        'Security management'
+      ],
+      image: 'https://ucarecdn.com/a6329e9a-7d30-4b7e-a135-ce32a3ebc2fc/WhatsAppImage20250312at162109_847677a3.jpg',
+      whatsapp: '+917077026408',
+      email: 'stiffraj@gmail.com'
+    },
+    {
       name: 'Udayendu Panigrahi',
-      role: 'Co-Founder & Guest Relations',
+      role: 'Co-Founder & Host',
       responsibilities: [
         'Guest experience management',
         'Customer service excellence'
@@ -173,7 +186,7 @@ const AboutUs = () => {
           >
             Meet Our Team
           </motion.h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
             {teamMembers.map((member, index) => (
               <motion.div 
                 key={index}
