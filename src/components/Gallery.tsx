@@ -11,14 +11,14 @@ const Gallery = () => {
   });
 
   const images = [
-    { url: 'https://ucarecdn.com/483cd0f6-ba0d-43f3-87f3-6d6ffb075eaf/301livingroom4.jpg', alt: 'Cozy bedroom' },
-    { url: 'https://ucarecdn.com/ea1e18e5-9588-43ea-9a8a-5644add2c5f3/301bedroom.jpg', alt: 'Luxurious bathroom' },
-    { url: 'https://ucarecdn.com/82ea5d25-b74c-4abd-a6d3-35e4cfecb054/301bedroom2.jpg', alt: 'Beautiful dining area' },
-    { url: 'https://ucarecdn.com/8775a932-3259-474a-a501-f2859b409a65/301livingroom2.jpg', alt: 'Garden view' },
-    { url: 'https://ucarecdn.com/ea7dc1ed-f824-4d5b-8486-03f49e05db41/G1livingroom3.jpg', alt: 'Suite living room' },
-    { url: 'https://ucarecdn.com/d7fbff9e-682d-4bf8-85df-de18f93946c3/G11stbedroom.jpg', alt: 'Balcony view' },
-    { url: 'https://ucarecdn.com/31a834b6-0913-4230-8a3a-6ddfd4501ac6/G1livingroom.jpg', alt: 'Workspace' },
-    { url: 'https://ucarecdn.com/084652b5-3813-4a31-9be6-6e80606948be/G12ndbedroom.jpg', alt: 'Kitchen area' },
+    { url: 'https://ucarecdn.com/fe8ec4dd-28ba-4c78-9c7f-5c79751ddae3/301livingroom4.avif', alt: 'Cozy bedroom' },
+    { url: 'https://ucarecdn.com/1bdba3d9-ec36-4024-9aec-d9f5cf1084e0/301bedroom.avif', alt: 'Luxurious bathroom' },
+    { url: 'https://ucarecdn.com/e9f15a0a-6d61-4977-ace6-f4e2821c8a05/301bedroom2.avif', alt: 'Beautiful dining area' },
+    { url: 'https://ucarecdn.com/44f68893-d792-4e46-858a-906de935307f/301livingroom2.avif', alt: 'Garden view' },
+    { url: 'https://ucarecdn.com/67bcd22c-0dba-4bd9-b5f7-6d62f459e25b/G1livingroom3.avif', alt: 'Suite living room' },
+    { url: 'https://ucarecdn.com/e647e6df-9f67-4d85-95c4-73e0c87b48ae/G11stbedroom.avif', alt: 'Balcony view' },
+    { url: 'https://ucarecdn.com/e4fd0051-b44d-41aa-b17c-275e220e76b0/G1livingroom.avif', alt: 'Workspace' },
+    { url: 'https://ucarecdn.com/33c18056-993b-42ea-9968-f65f22bb3f46/G12ndbedroom.avif', alt: 'Kitchen area' },
     
     // Add more images to reach 30
   ];

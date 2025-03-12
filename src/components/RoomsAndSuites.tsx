@@ -31,10 +31,10 @@ const RoomsAndSuites = () => {
     {
       name: 'Deluxe Suite Abhyuday Nilaya 201',
       images: [
-        'https://ucarecdn.com/70e2666b-108d-413b-9c48-a1a514ac35df/201livingroom.jpg',
-        'https://ucarecdn.com/c3b95f4d-7c7c-4229-8c93-bdcff7b50572/201livingroom1.jpg',
-        'https://ucarecdn.com/107f9827-4eb0-464e-8975-7be8a06d8b17/2012ndbedroom.jpg',
-        'https://ucarecdn.com/1ce4d260-071c-4bbc-bf35-137d7b1fcc00/2011stbedroom.jpg',
+        'https://ucarecdn.com/f7aaba27-e352-4b76-b600-99074162a759/201livingroom.avif',
+        'https://ucarecdn.com/1f834a78-98b5-4d49-897b-ac87d325ee57/201livingroom1.avif',
+        'https://ucarecdn.com/160b144a-604e-4d90-ba99-7a9ed5448a8e/2012ndbedroom.avif',
+        'https://ucarecdn.com/8200d386-ca9f-45e9-88cb-431c27716d60/2011stbedroom.avif',
       ],
       description: 'Perfect for families, featuring two bedrooms and a living area',
       size: '600 sq ft',
@@ -47,10 +47,10 @@ const RoomsAndSuites = () => {
     {
       name: 'Deluxe Suite Abhyuday Nilaya 301',
       images: [
-        'https://ucarecdn.com/8775a932-3259-474a-a501-f2859b409a65/301livingroom2.jpg',
-        'https://ucarecdn.com/483cd0f6-ba0d-43f3-87f3-6d6ffb075eaf/301livingroom4.jpg',
-        'https://ucarecdn.com/82ea5d25-b74c-4abd-a6d3-35e4cfecb054/301bedroom2.jpg',
-        'https://ucarecdn.com/ea1e18e5-9588-43ea-9a8a-5644add2c5f3/301bedroom.jpg',
+        'https://ucarecdn.com/44f68893-d792-4e46-858a-906de935307f/301livingroom2.avif',
+        'https://ucarecdn.com/fe8ec4dd-28ba-4c78-9c7f-5c79751ddae3/301livingroom4.avif',
+        'https://ucarecdn.com/e9f15a0a-6d61-4977-ace6-f4e2821c8a05/301bedroom2.avif',
+        'https://ucarecdn.com/1bdba3d9-ec36-4024-9aec-d9f5cf1084e0/301bedroom.avif',
       ],
       description: 'Cozy room with direct access to our beautiful garden',
       size: '300 sq ft',
@@ -63,10 +63,10 @@ const RoomsAndSuites = () => {
     {
       name: 'Deluxe Suite Abhyuday Nilaya G1',
       images: [
-        'https://ucarecdn.com/ea7dc1ed-f824-4d5b-8486-03f49e05db41/G1livingroom3.jpg',
-        'https://ucarecdn.com/31a834b6-0913-4230-8a3a-6ddfd4501ac6/G1livingroom.jpg',
-        'https://ucarecdn.com/d7fbff9e-682d-4bf8-85df-de18f93946c3/G11stbedroom.jpg',
-        'https://ucarecdn.com/084652b5-3813-4a31-9be6-6e80606948be/G12ndbedroom.jpg',
+        'https://ucarecdn.com/67bcd22c-0dba-4bd9-b5f7-6d62f459e25b/G1livingroom3.avif',
+        'https://ucarecdn.com/e4fd0051-b44d-41aa-b17c-275e220e76b0/G1livingroom.avif',
+        'https://ucarecdn.com/e647e6df-9f67-4d85-95c4-73e0c87b48ae/G11stbedroom.avif',
+        'https://ucarecdn.com/33c18056-993b-42ea-9968-f65f22bb3f46/G12ndbedroom.avif',
       ],
       description: 'Luxury suite with premium amenities and workspace',
       size: '500 sq ft',
