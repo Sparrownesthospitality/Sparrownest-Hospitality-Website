@@ -15,10 +15,10 @@ const RoomsAndSuites = () => {
     {
       name: 'Deluxe Suite Abhyuday Nilaya 101',
       images: [
-        'https://ucarecdn.com/aef755b0-6d44-478a-9e52-67082b2b2e01/101livingroom.jpg',
-        'https://ucarecdn.com/7cae24f5-a693-44f3-942b-59b5f4bd709c/101livingroom2.jpg',
-        'https://ucarecdn.com/64f63e0c-1f94-4758-b92e-5ec144e10171/1012ndbedroom.jpg',
-        'https://ucarecdn.com/522e55ed-ecde-42ae-a416-580348072240/1011stbedroom.jpg',
+        'https://ucarecdn.com/b2675308-91c6-4f46-859d-10b49a55b4db/101livingroom.avif',
+        'https://ucarecdn.com/5d38c314-19a6-4a0b-a4a5-e42b9d29a5ab/101livingroom2.avif',
+        'https://ucarecdn.com/fb20ea44-5403-4a2c-972c-aa4aeb320cff/1012ndbedroom.avif',
+        'https://ucarecdn.com/b94bb784-fac8-45fa-8624-6393b2874cf0/1011stbedroom.avif',
       ],
       description: 'Spacious suite with modern amenities and city views',
       size: '400 sq ft',

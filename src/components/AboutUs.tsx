@@ -12,8 +12,19 @@ const AboutUs = () => {
 
   const teamMembers = [
     {
+      name: 'Udayendu Panigrahi',
+      role: 'Founder & Host',
+      responsibilities: [
+        'Guest experience management',
+        'Customer service excellence'
+      ],
+      image: 'https://ucarecdn.com/0f413457-23f6-4732-9041-06f8438ea629/Screenshot20250217162729.png',
+      whatsapp: '+919337738065',
+      email: 'udayendusparrownest@gmail.com'
+    },
+    {
       name: 'Abhishek Singh',
-      role: 'Founder & CEO',
+      role: 'Co-Founder & Co-Host',
       responsibilities: [
         'Overall business management',
         'Strategic planning and growth',
@@ -26,7 +37,7 @@ const AboutUs = () => {
     },
     {
       name: 'Ajit Kumar Tiwari',
-      role: 'Property Manager',
+      role: 'Senior Manager',
       responsibilities: [
         'Property maintenance oversight',
         'Guest comfort management',
@@ -49,18 +60,8 @@ const AboutUs = () => {
       image: 'https://ucarecdn.com/a6329e9a-7d30-4b7e-a135-ce32a3ebc2fc/WhatsAppImage20250312at162109_847677a3.jpg',
       whatsapp: '+917077026408',
       email: 'stiffraj@gmail.com'
-    },
-    {
-      name: 'Udayendu Panigrahi',
-      role: 'Co-Founder & Host',
-      responsibilities: [
-        'Guest experience management',
-        'Customer service excellence'
-      ],
-      image: 'https://ucarecdn.com/0f413457-23f6-4732-9041-06f8438ea629/Screenshot20250217162729.png',
-      whatsapp: '+919337738065',
-      email: 'udayendusparrownest@gmail.com'
     }
+    
   ];
 
   const contentVariants = {
